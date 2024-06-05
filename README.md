@@ -41,4 +41,6 @@
     AUTHOR: Nina Li
     LASTEDIT: May 23, 2024
 
-    example: .\RunbookMigration.ps1 -oldSubscriptionId <source sub id> -newSubscriptionId <target sub id> -oldRGName <source resource group name> -oldAAName <source AA name> -newRGName <target resource group name> -newAAName <target AA name> -tempFolder <temp folder path>
+.example
+
+    .\RunbookMigration.ps1 -oldSubscriptionId <source sub id> -newSubscriptionId <target sub id> -oldRGName <source resource group name> -oldAAName <source AA name> -newRGName <target resource group name> -newAAName <target AA name> -tempFolder <temp folder path>
