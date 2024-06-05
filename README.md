@@ -6,7 +6,7 @@
 
 .DESCRIPTION
 
-    This PowerShell script is designed to migrate runbooks and variables cross tenants, all PS 5 and PS 7 runbooks will be imported as PS 5 runtime, you could change it via runtime environment later.
+    This PowerShell script is designed to migrate runbooks and variables cross tenants, you could run it in local PS window, all PS 5 and PS 7 runbooks will be imported as PS 5 runtime, you could change it via runtime environment later.
 
 .PARAMETER oldSubscriptionId
 
