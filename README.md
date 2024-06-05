@@ -2,7 +2,7 @@
 
 .SYNOPSIS 
 
-    This PowerShell script migrate runbooks and variables cross tenants 
+    This PowerShell script migrate runbooks and variables cross tenants. Required modules: Az.Accounts, Az.Automation
 
 .DESCRIPTION
 
