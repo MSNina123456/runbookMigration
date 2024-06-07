@@ -98,7 +98,7 @@ function loginAzAccount {
         # This script login to azure by user credential from local powershell window.
         "Logging in to Azure..."
         Connect-AzAccount -SubscriptionId $subscriptionId
-
+	Select-AzSubscription -SubscriptionId $subscriptionId
     }
     catch {
         Write-Error -Message $_.Exception
